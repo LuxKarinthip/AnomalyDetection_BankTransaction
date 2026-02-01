@@ -1,2 +1,87 @@
 # AnomalyDetection_BankTransaction
 Analysis of Transactional Behavior and Anomaly Detection
+
+Source : <https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection>
+
+# 🏦 Bank Transaction Anomaly & Fraud Risk Analysis
+
+## 📌 Project Overview
+
+Analyzed 2,500+ banking transactions across ATM, Branch, and Online channels to identify anomalous patterns and digital fraud risk using exploratory data analysis
+
+Developed explainable risk indicators and rule-based scoring (high-value transactions, behavioral signals, channel risk) to support fraud monitoring and risk prioritization
+
+Delivered actionable insights enabling risk-based controls, improved auditability, and data-driven decision-making for banking and compliance stakeholders
+
+---
+
+## 🎯 Business Problem
+With the growth of digital banking, financial institutions face increased exposure to:
+- High-value anomalous transactions
+- Online channel fraud risk
+- Behavioral abuse (e.g., repeated login attempts, abnormal transaction patterns)
+
+
+
+## 📂 Dataset Description
+- **2,512 banking transactions**
+- **16 features**, including:
+  - Transaction details (amount, type, date)
+  - Customer demographics (age, occupation)
+  - Behavioral signals (login attempts, transaction duration)
+  - Technical context (channel, device ID, IP address)
+- No missing values (production-ready quality)
+
+---
+
+## 🧠 Analytical Approach
+
+### 1. Exploratory Data Analysis (EDA)
+- Analyzed transaction amount and account balance distributions
+- Compared behavior across channels (ATM, Branch, Online)
+- Identified long-tail risk and behavioral outliers
+- Observed higher variance and tail risk concentration in **Online transactions**
+
+
+### 2. Anomaly & Risk Scoring Logic
+- Applied **unsupervised, rule-based risk logic** in the absence of labeled fraud data
+- Constructed an interpretable **Risk Score** by combining:
+  - Transaction magnitude
+  - Behavioral anomalies
+  - Channel risk exposure
+- Classified transactions into **Low / Medium / High Risk** tiers
+
+
+## 💡 Business Impact
+This analysis demonstrates how banks can:
+- Prioritize fraud investigation resources more effectively
+- Improve auditability and compliance through transparent logic
+- Lay the groundwork for scalable, model-driven fraud detection systems
+
+---
+
+## 🧭 Managerial Perspective
+From a Data Analytics / Data Science Manager viewpoint, this project highlights:
+- Translating EDA into operational risk logic
+- Designing explainable and auditable analytics for financial institutions
+- Aligning technical analysis with business and compliance needs
+- Providing clear insights for stakeholders beyond technical teams
+
+---
+
+## 🛠 Tools & Technologies
+- Python
+- Pandas, NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## 🚀 Future Enhancements
+- Integrate labeled fraud data for supervised modeling
+- Apply anomaly detection models (Isolation Forest, Autoencoder)
+- Add SHAP-based explainability
+- Build real-time dashboards for fraud monitoring teams
+
+
+
