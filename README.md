@@ -23,13 +23,12 @@ With the growth of digital banking, financial institutions face increased exposu
 
 
 ## 📂 Dataset Description
-- **2,512 banking transactions**
-- **16 features**, including:
+- 2,512 banking transactions
+- 16 features, including:
   - Transaction details (amount, type, date)
   - Customer demographics (age, occupation)
   - Behavioral signals (login attempts, transaction duration)
   - Technical context (channel, device ID, IP address)
-- No missing values (production-ready quality)
 
 ---
 
@@ -69,8 +68,7 @@ From a Data Analytics / Data Science Manager viewpoint, this project highlights:
 ---
 
 ## 🛠 Tools & Technologies
-- Python
-- Pandas, NumPy
+- Python (Anaconda)
 - Matplotlib
 - Jupyter Notebook
 
@@ -78,21 +76,18 @@ From a Data Analytics / Data Science Manager viewpoint, this project highlights:
 
 ## 🚀 Future Enhancements
 - Integrate labeled fraud data for supervised modeling
-- Apply anomaly detection models (Isolation Forest, Autoencoder)
-- Add SHAP-based explainability
 - Build real-time dashboards for fraud monitoring teams
 
 Analysis Explaintion
 1. First - Statistic exploration and EDA this transaction Data for overview
-<img width="1049" height="767" alt="image" src="https://github.com/user-attachments/assets/1f86b9f7-7f84-4be7-b6a9-0a579d562432" />
+<img width="680" height="300" alt="image" src="https://github.com/user-attachments/assets/1f86b9f7-7f84-4be7-b6a9-0a579d562432" />
 
 2. Check on graph to find pattern and anormaly data.
-   <img width="1352" height="763" alt="image" src="https://github.com/user-attachments/assets/e7648cc8-8a7f-4a4e-acc1-7e2979d839ed" />
+   <img width="680" height="300" alt="image" src="https://github.com/user-attachments/assets/e7648cc8-8a7f-4a4e-acc1-7e2979d839ed" />
 
 3. Finally, set the logic formular to detect the suspect transaction
-  <img width="680" height="438" alt="image" src="https://github.com/user-attachments/assets/ab68c4d8-f951-46be-839c-7109d876a298" />
+  <img width="680" height="300" alt="image" src="https://github.com/user-attachments/assets/ab68c4d8-f951-46be-839c-7109d876a298" />
 
-(This Logic for get the report for investigate or can deploy on system to alert when suddenly found the Highest red flag)
 
 
 
