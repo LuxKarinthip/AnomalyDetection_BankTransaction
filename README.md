@@ -1,7 +1,6 @@
 # AnomalyDetection_BankTransaction
 Analysis of Transactional Behavior and Anomaly Detection
 
-Source : <https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection>
 
 # 🏦 Bank Transaction Anomaly & Fraud Risk Analysis
 
@@ -82,6 +81,18 @@ From a Data Analytics / Data Science Manager viewpoint, this project highlights:
 - Apply anomaly detection models (Isolation Forest, Autoencoder)
 - Add SHAP-based explainability
 - Build real-time dashboards for fraud monitoring teams
+
+Analysis Explaintion
+1. First - Statistic exploration and EDA this transaction Data for overview
+<img width="1049" height="767" alt="image" src="https://github.com/user-attachments/assets/1f86b9f7-7f84-4be7-b6a9-0a579d562432" />
+
+2. Check on graph to find pattern and anormaly data.
+   <img width="1352" height="763" alt="image" src="https://github.com/user-attachments/assets/e7648cc8-8a7f-4a4e-acc1-7e2979d839ed" />
+
+3. Finally, set the logic formular to detect the suspect transaction
+  <img width="680" height="438" alt="image" src="https://github.com/user-attachments/assets/ab68c4d8-f951-46be-839c-7109d876a298" />
+
+(This Logic for get the report for investigate or can deploy on system to alert when suddenly found the Highest red flag)
 
 
 
